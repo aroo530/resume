@@ -1,0 +1,76 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+container {
+    display: block;
+    margin: 200px;
+    margin-top: 20px;
+    padding: 10px;  
+}
+#vl {
+    border-left: 6px solid #61ce8c;
+    height: 150px;
+    position: absolute;
+    margin-left: -10px;
+    top: 20;
+}  
+hr{
+    background-color: #61ce8c;
+    border: 0px;
+    height: 8px;
+    padding: 0px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+}
+section {
+    align-content: center;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+section h1{
+    font-size: 48px;
+    font-weight: 200;
+    margin: 0;
+}
+
+#light-green{
+    font-weight: 200;
+    font-size: 26px;
+    padding: 0px;
+    padding: bottom 5px; 
+    margin: 0px;
+}
+section h2 {
+    font-size: 14px;
+    color: #00ab44;
+    font-weight: 700;
+}
+section h3{
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding: 0px;
+    margin: 0px;
+}
+section p{
+    padding:0px;
+    margin: 0px ;
+    font-size: 14px;
+}
+#light-grey{
+    padding:0px;
+    margin: 0px ;
+    font-size: 11px;
+    font-weight: 200;
+    color: grey;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
