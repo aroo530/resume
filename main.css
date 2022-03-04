@@ -4,20 +4,20 @@ body{
     padding: 0px;
 }
 #vl {
-    display: block;
+    /* display: block; */
     margin-left: 20px;
     margin-top: 20px;
     padding: 10px;  
     border-left: 6px solid #61ce8c;
-    height: 150px;
+    height: 110px;
     position: absolute;
     max-width: 900px;
     /* top: 20; */
 }  
 section {
     align-content:left;
-    padding: 10px;
-    margin-left: 10px;
+    /* padding: 10px; */
+    margin-bottom: 20px;
 }
 section h1{
     font-size: 40px;
