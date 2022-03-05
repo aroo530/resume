@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
 /* for all screeen sizes */
-body,h1,section,ul,p,h2{
+body,h1,ul,p,h2,h3,#Student{
     font-family: 'Nunito Sans', sans-serif;
     margin: 0px;
     padding: 0px;
@@ -9,20 +9,19 @@ body,h1,section,ul,p,h2{
     }
 #vl {
 /* display: block; */
-margin-left: 20px;
+margin-left: 50px;
 margin-top: 20px;
-padding-left: 30px;
-padding-top: 20px;  
+padding-left:30px;
+padding-top: 10px;  
 border-left: 6px solid #61ce8c;
-height: 180px;
+height: 170px;
 position: absolute;
 max-width: 900px;
 /* top: 20; */
 }  
 section {
 align-content:left;
-/* padding: 10px; */
-margin-bottom: 20px;
+margin-bottom: 15px;
 }
 
 /* for pcs and tablets */
@@ -61,60 +60,38 @@ ul {
 
 /* For phones */
 @media screen and (max-width:750px) {
+    #vl {
+        margin-left: 30px;
+        padding-left: 20px;
+        height: 140px;
+    }
     section h1{
         font-size: 40px;
-        font-weight: 300;
+        font-weight: 400;
     }
     #Student{
-        font-weight: 300;
+        font-weight: 400;
         font-size: 26px;
-        padding: bottom 5px; 
     }
     section h2 {
-        font-size: 14px;
+        font-size: 18px;
         color: #00ab44;
         font-weight: 700;
-    }
-    section h3,p{
-        font-size: 14px;
         margin-bottom: 5px;
     }
-    #light-grey{
-        font-size: 12px;
-        font-weight: 300;
-        color: grey;
-    }
-    ul {
-      list-style-type: none;
-    }
-    #vl {
-    height: 140px;
-    }
-    section h1{
-        font-size: 40px;
-        font-weight: 300;
-    }
-    #light-green{
-        font-weight: 300;
-        font-size: 26px;
-        padding: bottom 5px; 
-    }
-    section h2 {
-        font-size: 14px;
-        color: #00ab44;
-        font-weight: 700;
-    }
-    section h3,p{
-        font-size: 14px;
+    section h3{
+        font-size: 16px;
         margin-bottom: 5px;
     }
+    section p,a,li{
+        font-size: 16px;
+        margin-bottom: 3px;
+    }
     #light-grey{
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 300;
         color: grey;
-    }
-    ul {
-    list-style-type: none;
-    }
-        
+        padding: 0px;
+        margin: 0px;
+    }       
 }
