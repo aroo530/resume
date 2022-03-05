@@ -6,6 +6,7 @@ body,h1,section,ul,p,h2{
     font-family: 'Nunito Sans', sans-serif;
     margin: 0px;
     padding: 0px;
+    padding-right: 20px;
 }
 #vl {
     /* display: block; */
