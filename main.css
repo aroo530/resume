@@ -1,56 +1,120 @@
-/* @media screen and (min-width:500px) {
-    
-} */
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+/* for all screeen sizes */
 body,h1,section,ul,p,h2{
     font-family: 'Nunito Sans', sans-serif;
     margin: 0px;
     padding: 0px;
     padding-right: 20px;
-}
+    }
 #vl {
-    /* display: block; */
-    margin-left: 20px;
-    margin-top: 20px;
-    padding-left: 30px;
-    padding-top: 20px;  
-    border-left: 6px solid #61ce8c;
-    height: 120px;
-    position: absolute;
-    max-width: 900px;
-    /* top: 20; */
+/* display: block; */
+margin-left: 20px;
+margin-top: 20px;
+padding-left: 30px;
+padding-top: 20px;  
+border-left: 6px solid #61ce8c;
+height: 180px;
+position: absolute;
+max-width: 900px;
+/* top: 20; */
 }  
 section {
-    align-content:left;
-    /* padding: 10px; */
-    margin-bottom: 20px;
+align-content:left;
+/* padding: 10px; */
+margin-bottom: 20px;
 }
+
+/* for pcs and tablets */
 section h1{
-    font-size: 40px;
-    font-weight: 300;
+    font-size: 48px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
 }
-#light-green{
-    font-weight: 300;
-    font-size: 26px;
-    padding: bottom 5px; 
+#Student{
+    font-weight: 400;
+    font-size: 32px;
+    /* padding-bottom:5px;  */
 }
 section h2 {
-    font-size: 14px;
+    font-size: 18px;
     color: #00ab44;
-    font-weight: 700;
+    font-weight: 900;
 }
-section h3,p{
-    font-size: 14px;
+section h3{
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+section p,ul,a{
+    font-size: 18px;
     margin-bottom: 5px;
 }
 #light-grey{
-    font-size: 12px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 500;
     color: grey;
 }
 ul {
   list-style-type: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+/* For phones */
+@media screen and (max-width:750px) {
+    section h1{
+        font-size: 40px;
+        font-weight: 300;
+    }
+    #Student{
+        font-weight: 300;
+        font-size: 26px;
+        padding: bottom 5px; 
+    }
+    section h2 {
+        font-size: 14px;
+        color: #00ab44;
+        font-weight: 700;
+    }
+    section h3,p{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    #light-grey{
+        font-size: 12px;
+        font-weight: 300;
+        color: grey;
+    }
+    ul {
+      list-style-type: none;
+    }
+    #vl {
+    height: 140px;
+    }
+    section h1{
+        font-size: 40px;
+        font-weight: 300;
+    }
+    #light-green{
+        font-weight: 300;
+        font-size: 26px;
+        padding: bottom 5px; 
+    }
+    section h2 {
+        font-size: 14px;
+        color: #00ab44;
+        font-weight: 700;
+    }
+    section h3,p{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    #light-grey{
+        font-size: 12px;
+        font-weight: 300;
+        color: grey;
+    }
+    ul {
+    list-style-type: none;
+    }
+        
+}
